@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>JoTempre-Template_three_v1.6</name>
+	<creationDate>17.01.2011</creationDate>
+	<author>Thomas Ballschmieter</author>
+	<authorEmail>info@hpforyou.de</authorEmail>
+	<authorUrl>http://www.hpforyou.de</authorUrl>
+	<copyright>Copyright (C) 2011 hpforyou.de, All rights reserved.</copyright>
+	<license>Creative Commons, Attribution 3.0 Unported</license>
+	<version>1.2.1</version>
+	<description><![CDATA[<h2>JoTempre three ist ein Template für Joomla 1.6!</h2>Weitere Templates finden Sie auf unserer Webseite <a href="http://www.hpforyou.de" target="_blank">www.hpforyou.de</a>.<br />Den aktuellen Buxfix für das Template Modul, können Sie ebenfalls auf unserer Webseite kostenfrei nach Anmeldung herunterladen.</p><p><a href="http://www.hpforyou.de/lizenzbestimmungen.html" target="_blank">Das Template jetzt komplett ohne Copyrights commercial nutzen?</a><br /><br />Mit besten Grüßen<br />Ihr hpforyou Team</p><hr size="1" /><h2>Individuelle Joomla Templates bereits ab 210,- Euro zzgl. Ust.</h2>]]></description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>error.php</filename>
+	</files>
+
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				
+				<field name="logo" type="media" hide_default="1" label="Logo (max. 980px / 109px)" description="Bitte wählen Sie Ihr Logo aus." />
+				
+				<field name="seitentitel" type="text" default="Hier kann Ihr Logo oder Schriftzug stehen!" label="Webseitenname" description="Hier kann Ihr Webseiten- oder Firmenname stehen." filter="string" />
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

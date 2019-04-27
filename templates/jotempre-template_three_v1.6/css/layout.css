@@ -1,0 +1,592 @@
+/*  
+  	  ************.C.O.P.Y.R.I.G.H.T.*************
+	************************************************
+    
+	Design und CSS Copyright by Thomas Ballschmieter
+	       www.hpforyou.de or info@hpforyou.de
+           
+	************************************************
+    
+         Template: JoTempre Template three v1.6.0
+         
+	  ********************************************
+ */ 
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, span, a, table, td, form, img, li { 
+	margin: 0; 
+	padding: 0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+html, body { 
+	background:url(../images/bg.jpg) top left repeat-x #fff;
+	font-size: 11px;
+	color:#000;
+}
+
+a:link { 
+	color: #0e6caa; 
+	text-decoration: underline; 
+} 
+
+a:visited { 
+	color: #0e6caa; 
+	text-decoration: underline; 
+}
+
+a:hover { 
+	color: #000; 
+	text-decoration: underline; 
+} 
+
+a:active { 
+	color: #0e6caa; 
+	text-decoration: underline; 
+}
+
+strong { 
+	font-weight: bold;
+} 
+
+#container {
+	margin:0 auto;
+	width:980px;
+}
+
+#header {
+	height:109px;
+	width:980px;
+}
+
+#logo {
+	width:980px;
+	height:109px;
+	float:left;
+}
+
+.bannergroup {
+	margin:23px 0 0 0;
+	width:468px;
+	height:60px;
+	display:block;
+	float:right;
+}
+
+.bannergroup img,
+.contentpaneopen img {
+	border:0;
+}
+
+.contentpaneopen {
+	padding:0 5px;
+}
+
+#banner .bannergroup .banneritem img {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#topmenu {
+	width:980px;
+	height:28px;
+}
+
+/*** elemente ausblenden ***/
+#topmenu h3,
+#topmenu ul ul {
+	display:none;
+}
+/******/
+
+#topmenu ul {
+	list-style:none;
+	float:left;
+}
+
+#topmenu li {
+	float:left;
+}
+
+#topmenu li a {
+	padding:0 15px;
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+	line-height:28px;
+	float:left;
+	border-left:1px solid #7dafc9;
+	display:block;
+}
+
+#topmenu li a:hover {
+	color:#fff;
+	background:url(../images/topmenu.jpg) repeat-x top left;
+	text-decoration:none !important;
+}
+#topmenu #active_menu-nav {
+	color:#fff;
+	background:url(../images/topmenu.jpg) repeat-x top left;
+	text-decoration:underline;
+}
+
+
+#top {
+	height:28px;
+}
+
+#top .breadcrumbs {
+	line-height:27px;
+	float:left;
+	width:674px;
+	display:block;
+	color:#fff;
+	padding-left:16px;
+}
+
+#top .breadcrumbs a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#suche {
+	height:28px;
+	float:right;
+	width:290px;
+	clear:right;
+}
+
+#suche .search label {
+	display:none;
+}
+
+#suche form {
+	float:right;
+}
+
+#mod-search-searchword {
+	padding:1px 0 0 22px;
+	margin:4px 0 0 0;
+	background: url(../images/su.jpg) 2px 2px no-repeat #1668a3;
+	border:1px solid #125484;
+	width:138px;
+	height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	float:right;
+}
+
+/**** Menu links ****/
+#right .module,
+#right .module_menu,
+#right .moduletable_menu,
+#right .moduletable,
+#right .moduletable_text {
+	padding:2px;
+	margin:0 0 10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+#left .module,
+#left .module_menu,
+#left .moduletable_menu,
+#left .moduletable,
+#left .moduletable_text {
+	padding:2px;
+	margin:0 0 10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+.module form,
+.moduletable_menu form,
+.module_menu form,
+.moduletable form {
+	border:0;
+	text-align:left;
+}
+
+.moduletable .poll .pollstableborder {
+	text-align:left;
+	padding:4px 0 4px 0;
+}
+
+.moduletable .poll {
+	padding:6px 0 8px 0;
+}
+
+.module form fieldset,
+.module_menu form fieldset,
+.moduletable form fieldset,
+.moduletable_menu form fieldset {
+	padding:0 0 0 8px;
+	list-style:none;
+	border:0;
+}
+
+.module h3,
+.module_menu h3,
+.moduletable h3,
+.moduletable_menu h3,
+.moduletable_text h3 {
+	padding:0 0 0 10px;
+	background:url(../images/ver_2.jpg) repeat-x;
+	line-height:28px;
+	color:#fff;
+	font-size:13px;
+	text-align:left;
+}
+
+.module ul,
+.module_menu ul,
+.moduletable ul,
+.moduletable_menu ul {
+	padding:4px 0 5px 0;
+	list-style:none;
+}
+
+.module ul li,
+.module_menu ul li,
+.moduletable ul li,
+.moduletable_menu ul li {
+	padding:0 0 0 16px;
+	line-height:20px;
+	background: url(../images/link_1.jpg) no-repeat 4px 4px;
+	text-align:left;
+}
+
+.module ul li a,
+.module_menu ul li a,
+.moduletable ul li a,
+.moduletable_menu ul li a {
+	text-decoration:none;
+	color:#003366;
+	display:block;
+	text-align:left;
+}
+
+.module ul li a:hover,
+.module_menu ul li a:hover,
+.moduletable ul li a:hover,
+.moduletable_menu ul li a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+
+.module ul ul,
+.module_menu ul ul,
+.moduletable ul ul,
+.moduletable_menu ul ul {
+	list-style:none;
+}
+
+
+.module ul ul li,
+.module_menu ul ul li,
+.moduletable ul ul li,
+.moduletable_menu ul ul li {
+	line-height:20px;
+	background: url(../images/link_2.jpg) no-repeat 4px 4px;
+}
+
+.module ul ul li a,
+.module_menu ul ul li a,
+.moduletable ul ul li a,
+.moduletable_menu ul ul li a  {
+	padding:0 0 0 3px;
+	text-decoration:none;
+	color:#003366;
+	display:block;
+}
+
+.module ul ul li a:hover,
+.module_menu ul ul li a:hover,
+.moduletable ul ul li a:hover,
+.moduletable_menu ul ul li a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+
+.module ul ul ul,
+.module_menu ul ul ul,
+.moduletable ul ul ul,
+.moduletable_menu ul ul ul {
+	list-style:none;
+}
+
+.module ul ul ul li,
+.module_menu ul ul ul li,
+.moduletable ul ul ul li,
+.moduletable_menu ul ul ul li {
+	margin:0 0 0 10px;
+	line-height:20px;
+	background: url(../images/link_2.jpg) no-repeat 4px 4px;
+}
+
+.module ul ul ul li a,
+.module_menu ul ul ul li a,
+.moduletable ul ul ul li a,
+.moduletable_menu ul ul ul li a {
+	padding:0 0 0 3px;
+	text-decoration:none;
+	color:#003366;
+	display:block;
+}
+
+.module ul ul ul li a:hover,
+.module_menu ul ul ul li a:hover,
+.moduletable ul ul ul li a:hover,
+.moduletable_menu ul ul ul li a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+
+#modlgn-username {
+	padding:1px 2px 0 13px;
+	margin:5px 0 0 0;
+	background: url(../images/bn.jpg) 2px 2px no-repeat #1668a3;
+	border:1px solid #125484;
+	width:150px;
+	height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+}
+
+#modlgn-passwd {
+	padding:1px 2px 0 13px;
+	margin:5px 0 0 0;
+	background: url(../images/pw.jpg) 2px 2px no-repeat #1668a3;
+	border:1px solid #125484;
+	width:150px;
+	height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+}
+
+#modlgn-username:hover,
+#modlgn-passwd:hover {
+	border:1px solid #333;
+	color: #ccc;
+}
+
+.bannergroup_text {
+	padding:5px;
+}
+
+/***** content *****/
+#left {
+	margin:0 10px 0 0;
+	width:200px;
+	float:left;
+}
+
+* html #left {
+	margin:0 5px 0 0;
+}
+
+
+#main2 {
+	padding:10px;
+	background:#fff;
+	border:1px solid #ccc;
+	line-height:16px;
+}
+
+#main2 .componentheading table {
+	display:block;
+}
+
+
+#right {
+	margin:0 0 0 10px;
+	width:200px;
+	float:right;
+}
+
+#head {
+	width:980px;
+	float:left;
+}
+
+#head ul li a {
+	line-height:20px;
+	background: url(../images/link_3.jpg) no-repeat 4px 4px;
+	text-align:left;
+	background:none;
+}
+
+#headbox_1 {
+	padding:2px;
+	width:479px;
+	margin:0 10px 10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+	float:left;
+}
+
+#headbox_2 {
+	padding:2px;
+	width:479px;
+	margin:0 0 10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+	float:left;
+}
+
+.button,
+a.readon {
+	padding:2px 10px;
+	background:url(../images/ver_2.jpg) repeat-x;
+	color:#fff;
+	border:1px solid #125484;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+a.readon:hover,
+.button:hover {
+	background:url(../images/ver_3.jpg) repeat-x;
+}
+
+/***** Text *****/
+#main .componentheading {
+	padding:3px;
+	margin:0 0 10px 0;
+	font-size:16px;
+	font-weight:bold;
+	color:#333;
+	text-decoration:underline;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#main .contentheading {
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+}
+
+#main .contentheading,
+#main h2.contentheading,
+#main h2.contentheading a,
+#main h2 {
+	font-size:14px;
+	color:#000;
+}
+
+#main .small,
+#main .createdate,
+#main .modifydate {
+	color:#666;
+	font-style: italic;
+}
+
+#main2 ul {
+	margin-left:30px;
+}
+
+/***** Footer *****/
+#footer {
+	clear:both;
+}
+
+#hpforyou {
+	font-size:10px;
+	text-align:center;
+	color:#666;
+}
+
+#hpforyou a {
+	color: #666;
+	text-decoration: none;
+}
+
+#hpforyou a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#copyr {
+	text-align: center;
+	clear:left;
+}
+
+#copyr {
+	padding:6px 0 0 0;
+	margin:0 auto 0 auto;	
+	line-height:18px;
+	color:#000;
+	height:40px;
+	background: url(../images/footer.jpg) repeat-x;
+}
+
+.blog_more {
+	margin-bottom:10px;
+}
+
+.brl {
+	margin-top:10px;
+}
+
+ul.actions {
+	list-style:none;
+	float:right;
+}
+
+ul.actions li {
+	float:right;
+	padding-left:5px;
+}
+
+ul.actions li img {
+	border:0;
+}
+
+.article-info dd {
+	color:#666;
+	margin:0;
+	padding:0;
+	font-style:italic;
+}
+
+.article-info a {
+	color:#666;
+}
+
+.article-info a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+ul.pagenav {
+	list-style:none;
+	margin:0 auto; 
+	float:left;
+	position:relative; 
+	left:50%;
+}
+
+ul.pagenav li {
+	float:left;
+	position:relative;
+	line-height:12px;
+	right:50%;
+	padding:0 5px;
+	margin-top:20px;
+}
+
+ul.pagenav li a {
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#000;
+	background:#fff;
+	padding:5px;
+	border:1px solid #999;
+}
